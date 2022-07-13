@@ -1,0 +1,22 @@
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+.alert {
+  --alert-text-color: black;
+
+  color: var(--alert-text-color);
+}
+
+.alert.success {
+  --alert-text-color: green;
+}
+
+.alert.warning {
+  --alert-text-color: orange;
+}
+
+.alert.error {
+  --alert-text-color: red;
+}
