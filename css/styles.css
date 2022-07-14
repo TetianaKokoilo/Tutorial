@@ -1,22 +1,11 @@
-body {
-  font-family: sans-serif;
-  line-height: 1.5;
+pre {
+  font-family: 'Arial', 'Helvetica', sans-serif;
+  color: #2a2a2a;
+  font-size: 16px;
 }
 
-.alert {
-  --alert-text-color: black;
-
-  color: var(--alert-text-color);
-}
-
-.alert.success {
-  --alert-text-color: green;
-}
-
-.alert.warning {
-  --alert-text-color: orange;
-}
-
-.alert.error {
-  --alert-text-color: red;
+pre::first-letter {
+  font-family: 'Tahoma', serif;
+  font-size: 32px;
+  color: #f44336;
 }
